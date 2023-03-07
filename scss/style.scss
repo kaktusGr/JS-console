@@ -25,13 +25,22 @@ a {
 	padding: 0px 50px;
 }
 
+header {
+	padding: 5px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
 .header {
 
 	&__row {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 20px 0px;
+		margin: 15px 0px;
 	}
 
 	&__logo {
@@ -41,7 +50,6 @@ a {
 		img {
 			height: 100%;
 			width: 100%;
-			box-shadow: 10px 4px 5px #000;
 		}
 	}
 
@@ -54,7 +62,7 @@ a {
 .main {
 
 	&__title {
-		margin: 90px 0px 30px 0px;
+		margin: 150px 0px 30px 0px;
 
 		h1 {
 			font-size: 24px;
@@ -82,7 +90,7 @@ a {
 	&__button {
 		display: flex;
 		justify-content: center;
-		margin: 0px 0px 15px 0px;
+		margin: 0px 0px 20px 0px;
 
 		&_item {
 			&:after {
@@ -110,6 +118,7 @@ a {
 		flex-direction: row;
 		justify-content: space-between;
 		height: 450px;
+		margin: 0px 0px 50px 0px;
 	}
 
 }
@@ -126,5 +135,13 @@ textarea[type="text"] {
 
 	&:last-child {
 		margin: 0px;
+	}
+
+	&:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	}
+
+	&:focus {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 	}
 }

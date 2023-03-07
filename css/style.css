@@ -97,11 +97,20 @@ a {
   padding: 0px 50px;
 }
 
+header {
+  padding: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
 .header__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0px;
+  margin: 15px 0px;
 }
 .header__logo {
   height: 40px;
@@ -110,7 +119,6 @@ a {
 .header__logo img {
   height: 100%;
   width: 100%;
-  box-shadow: 10px 4px 5px #000;
 }
 .header__text {
   font-size: 14px;
@@ -118,7 +126,7 @@ a {
 }
 
 .main__title {
-  margin: 90px 0px 30px 0px;
+  margin: 150px 0px 30px 0px;
 }
 .main__title h1 {
   font-size: 24px;
@@ -138,7 +146,7 @@ a {
 .main__button {
   display: flex;
   justify-content: center;
-  margin: 0px 0px 15px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .main__button_item:after {
   content: "";
@@ -161,6 +169,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   height: 450px;
+  margin: 0px 0px 50px 0px;
 }
 
 textarea[type=text] {
@@ -175,4 +184,10 @@ textarea[type=text] {
 }
 textarea[type=text]:last-child {
   margin: 0px;
+}
+textarea[type=text]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+textarea[type=text]:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
