@@ -5,3 +5,28 @@ body {
 	font-size: 24px;
 	margin: 20px;
 }
+
+.header {
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		height: 50px;
+		overflow: hidden;
+
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	&__text {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		color: #FFFFFF;
+		text-shadow: 3px 1px 5px #F7DC1C;
+	}

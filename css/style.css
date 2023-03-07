@@ -77,3 +77,23 @@ body {
   font-size: 24px;
   margin: 20px;
 }
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: 50px;
+  overflow: hidden;
+}
+.header__logo img {
+  height: 100%;
+  width: 100%;
+}
+.header__text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 3px 1px 5px #F7DC1C;
+}
